@@ -30,3 +30,4 @@ fp-info-cache
 
 # Backup files
 *-backups/
+*.DS_Store
