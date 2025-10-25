@@ -7,6 +7,11 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "${TITLE}")
+		(rev "${REV}")
+		(comment 1 "${VERSION}")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -132,6 +137,8 @@
 			(outputdirectory "")
 		)
 	)
+	(property "REV" "z1")
+	(property "TITLE" "G&W_SWD")
 	(property "VERSION" "Zelda")
 	(net 0 "")
 	(net 1 "GND")
@@ -936,7 +943,7 @@
 		(path "/79a64c4e-76ee-4d25-9b90-c86c9c2265eb")
 		(sheetname "/")
 		(sheetfile "swd_implant.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0.65 0)
@@ -1026,7 +1033,7 @@
 		(path "/0104bf57-2170-484f-b873-072fcaada062")
 		(sheetname "/")
 		(sheetfile "swd_implant.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy -1.566047 0.979411) (xy -1.503942 0.875409) (xy -1.434985 0.775819) (xy -1.359488 0.68109) (xy -1.277792 0.591652)
@@ -4260,7 +4267,7 @@
 		(path "/c7d6bca0-ac1a-46ef-ba15-1cee8d77d0b3")
 		(sheetname "/")
 		(sheetfile "swd_implant.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0.65 0)
@@ -4351,7 +4358,7 @@
 		(path "/9c16aae1-9f18-4020-b005-f5895d163520")
 		(sheetname "/")
 		(sheetfile "swd_implant.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.55 -1.15)
 			(end -1.55 -1.15)
@@ -4980,7 +4987,7 @@
 		(path "/abfa5dfe-7906-4a37-9ec9-46fb4d775ca0")
 		(sheetname "/")
 		(sheetfile "swd_implant.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.27 0.381)
 			(end 1.27 1.27)
@@ -5394,7 +5401,7 @@
 		(path "/47561d54-1eaa-4642-af5f-f06d54bf7a06")
 		(sheetname "/")
 		(sheetfile "swd_implant.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0.65 0)
@@ -5582,7 +5589,7 @@
 		(path "/5cc0d43b-5d63-443e-9d6c-4c8d46fc7546")
 		(sheetname "/")
 		(sheetfile "swd_implant.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0.65 0)
@@ -5676,7 +5683,7 @@
 		(path "/29e9eb39-d49f-40aa-8734-ba21dad044c1")
 		(sheetname "/")
 		(sheetfile "swd_implant.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0.65 0)
@@ -5913,8 +5920,8 @@
 			(justify right)
 		)
 	)
-	(gr_text "Z"
-		(at 64.7 101.7 0)
+	(gr_text "REV:${REV}"
+		(at 61.4 96.9 315)
 		(layer "F.SilkS")
 		(uuid "6782ead5-c5d5-48a4-b745-957980a0cfe9")
 		(effects
@@ -6057,8 +6064,8 @@
 			(justify right mirror)
 		)
 	)
-	(gr_text "G&W ${VERSION}"
-		(at 66 104.4 0)
+	(gr_text "${TITLE} ${VERSION}"
+		(at 66.2 104.4 0)
 		(layer "B.SilkS")
 		(uuid "6a9b7f46-d99b-4a6b-9b1c-bb5371888aab")
 		(effects
@@ -6104,6 +6111,18 @@
 				(thickness 0.15)
 			)
 			(justify right mirror)
+		)
+	)
+	(gr_text "JLCJLCJLC"
+		(at 65.3 125.1 0)
+		(layer "B.SilkS")
+		(uuid "9175a0ec-5b97-46f5-a2ec-c5d14dd33b2a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(gr_text "GND"
@@ -6167,7 +6186,7 @@
 		)
 	)
 	(gr_text "GND"
-		(at 63.24 122.94 90)
+		(at 63.3 122.6 90)
 		(layer "B.SilkS")
 		(uuid "db44402c-948a-4d06-8e04-22b37108e39b")
 		(effects

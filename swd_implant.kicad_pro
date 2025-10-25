@@ -148,7 +148,7 @@
         "min_via_diameter": 0.4,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "solder_paste_clearance": 0.0,
         "solder_paste_margin_ratio": -0.0,
         "use_height_for_length_calcs": true
@@ -691,6 +691,8 @@
     ]
   ],
   "text_variables": {
+    "REV": "z1",
+    "TITLE": "G&W_SWD",
     "VERSION": "Zelda"
   }
 }

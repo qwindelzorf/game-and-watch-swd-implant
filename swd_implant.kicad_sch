@@ -5,8 +5,9 @@
 	(uuid "a3c57c08-d1ad-478f-a771-210402e7cdf9")
 	(paper "A4")
 	(title_block
-		(title "Game & Watch SWD Implant")
-		(rev "Mario")
+		(title "${TITLE}")
+		(rev "${REV}")
+		(comment 1 "${VERSION}")
 	)
 	(lib_symbols
 		(symbol "ATSAMD21:ATSAMD21E18A"
