@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 3.6,
-          "width": 3.6
+          "drill": 1.3,
+          "height": 2.38,
+          "width": 2.38
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -148,7 +148,7 @@
         "min_via_diameter": 0.4,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "solder_paste_clearance": 0.0,
         "solder_paste_margin_ratio": -0.0,
         "use_height_for_length_calcs": true
@@ -691,6 +691,8 @@
     ]
   ],
   "text_variables": {
+    "REV": "m1",
+    "TITLE": "G&W SWD",
     "VERSION": "Mario"
   }
 }
