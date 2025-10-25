@@ -14,7 +14,12 @@ This is forked from [UlfWetzker/game-and-watch-swd-implant](https://github.com/U
 
 ## Zelda (2021)
 
-TODO
+![](./images/zelda_implant_placement.png)
+<p>
+  <img src="./images/zelda_layout_front.png" alt="Front" height="250px">
+  <img src="./images/zelda_layout_back.png" alt="Back" height="250px">
+</p>
+
 
 ## Implant Firmware
 
