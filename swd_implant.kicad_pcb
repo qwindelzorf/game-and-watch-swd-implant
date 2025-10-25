@@ -132,7 +132,7 @@
 			(outputdirectory "")
 		)
 	)
-	(property "VERSION" "Mario")
+	(property "VERSION" "Zelda")
 	(net 0 "")
 	(net 1 "GND")
 	(net 2 "Net-(U1-VDDCORE)")
@@ -1999,7 +1999,7 @@
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "00ea6e3e-c7bd-4b65-ba8c-abcc50f2396f")
+			(uuid "77b83e09-9020-4e5c-9e31-2af7373fce2a")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -3.105)
@@ -2011,7 +2011,7 @@
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "00ea6e3e-c7bd-4b65-ba8c-abcc50f2396f")
+			(uuid "305f2f1b-ecd7-49ba-8fdc-849d0f4b70ed")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 1.075)
@@ -2023,7 +2023,7 @@
 			(net 1 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "00ea6e3e-c7bd-4b65-ba8c-abcc50f2396f")
+			(uuid "c59bcb6e-7e3b-43f2-a523-445b1ad635d3")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.wrl"
@@ -5989,6 +5989,18 @@
 				(thickness 0.15)
 			)
 			(justify right)
+		)
+	)
+	(gr_text "Z"
+		(at 63.6 100.2 0)
+		(layer "F.SilkS")
+		(uuid "6782ead5-c5d5-48a4-b745-957980a0cfe9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "nRST"
