@@ -2,6 +2,7 @@
 # Format documentation: http://kicad-pcb.org/help/file-formats/
 
 *production/**
+jlcpcb/**
 
 # Temporary files
 *.000
@@ -9,6 +10,7 @@
 *.bck
 *.kicad_pcb-bak
 *.kicad_sch-bak
+*.kicad_sch_old
 *.kicad_prl
 *.sch-bak
 *~

@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(general
-		(thickness 0.59)
+		(thickness 0.69)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
@@ -54,7 +54,7 @@
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
-				(color "Green")
+				(color "Purple")
 				(thickness 0.01)
 				(material "Dry Film")
 				(epsilon_r 3.3)
@@ -66,11 +66,11 @@
 			)
 			(layer "dielectric 1"
 				(type "core")
-				(color "Polyimide")
-				(thickness 0.5)
-				(material "Polyimide")
-				(epsilon_r 3.2)
-				(loss_tangent 0.004)
+				(color "FR4 natural")
+				(thickness 0.6)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
 			)
 			(layer "B.Cu"
 				(type "copper")
@@ -78,7 +78,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
-				(color "Green")
+				(color "Purple")
 				(thickness 0.01)
 				(material "Dry Film")
 				(epsilon_r 3.3)
@@ -1033,7 +1033,7 @@
 		(path "/0104bf57-2170-484f-b873-072fcaada062")
 		(sheetname "/")
 		(sheetfile "swd_implant.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy -1.566047 0.979411) (xy -1.503942 0.875409) (xy -1.434985 0.775819) (xy -1.359488 0.68109) (xy -1.277792 0.591652)
@@ -2023,7 +2023,7 @@
 		(path "/4f899d64-e9b6-44c9-b739-ecf3f6e85f6a")
 		(sheetname "/")
 		(sheetfile "swd_implant.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(pad "1" smd rect
 			(at -5.08 -1.5)
 			(size 1.5 3)
@@ -4588,7 +4588,7 @@
 		(path "/ea73adb2-2f94-4325-821a-4d55c642cf88")
 		(sheetname "/")
 		(sheetfile "swd_implant.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0.65 0)
@@ -4677,7 +4677,7 @@
 				)
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_poly
 			(pts
 				(xy -1.778 -0.135466) (xy -2.302933 -0.135466) (xy -2.302933 0.127001) (xy -1.778 0.127001) (xy -1.778 -0.135466)
@@ -4899,7 +4899,7 @@
 		(path "/5e52e0c3-fe78-41e4-9fee-537b29741736")
 		(sheetname "/")
 		(sheetfile "swd_implant.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(pad "1" smd rect
 			(at -2.54 1.5 270)
 			(size 1.5 3)
@@ -5307,7 +5307,7 @@
 		(path "/e3c9f160-8157-4cbb-9a15-3d2e41fe9751")
 		(sheetname "/")
 		(sheetfile "swd_implant.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0.65 0)
@@ -5495,7 +5495,7 @@
 		(path "/53c4a561-c576-40ab-a6e5-26a24b602e83")
 		(sheetname "/")
 		(sheetfile "swd_implant.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0.65 0)
@@ -6113,7 +6113,7 @@
 			(justify right mirror)
 		)
 	)
-	(gr_text "JLCJLCJLC"
+	(gr_text "JLCJLCJLCJLC"
 		(at 65.3 125.1 0)
 		(layer "B.SilkS")
 		(uuid "9175a0ec-5b97-46f5-a2ec-c5d14dd33b2a")
