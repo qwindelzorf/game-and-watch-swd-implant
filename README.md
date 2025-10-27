@@ -34,6 +34,7 @@ The go-to firmware for these consoles is "RetroGo":
 
 ## Other Links
 
+- SD Card mod: [link](https://github.com/sylverb/game-and-watch-retro-go-sd)
 - Original homebrew work: [link](https://github.com/ghidraninja/game-and-watch-backup)
 - Various firmware and utilities: [link](https://www.schuerewegen.tk/gnw/)
 - A good tutorial on modding & flashing: [link](https://psxtools.de/forum/index.php?thread/87820-tutorial-zelda-mario-game-and-watch-64mb-upgrade-dualboot-ofw-retro-go/) (German)
